@@ -1,0 +1,18 @@
+How to create custom assets.
+
+- The id field must be specified as 0 and is automatically specified when created.
+- asset.json needs to located in a same folder of its asset
+- following is asset.json example.
+
+{
+    "id": 0,
+    "name": "Acme",
+    "path": "Acme/Acme-Regular.ttf",
+    "icon": "Acme/icon.png",
+    "type": "font"
+}
+
+from above,
+
+1. path & icon is relative path from current asset type
+2. we are assuming that asset is located in 'assets/fonts/Acme/Acme-Regular.ttf'
