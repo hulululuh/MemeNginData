@@ -1,0 +1,53 @@
+memeNgin:
+  about: MemeNgin is a node-based image engine developed for meme creators.
+  detail: In MemeNgin, you can design an image meme machine that fits your needs by building logic circuits such as shape, color, text, and compositing, not just adding text to images. The machine designed in this way becomes a template that allows you to create new meme with minimal efforts. The iterative process of image modification can also be programmed with logic nodes and used for productive purposes.
+  
+  full_version_title: If you purchase MemeNgin
+  full_version:
+    - You can use the Steam Workshop to share your work with others and edit others' work. (working on progress)
+    - Unlimited saves.
+    - You are helping me to completing the this project.
+
+  links:
+    discord: Discord server
+    roadmap: Trello page
+    subreddit: Sub-reddit
+    source_code: Github
+    translate: I need help translating into your language, including English. You can check the details on the GitHub page.
+
+  text_open_source: MemeNgin is an open source project. We try to determine the direction of the project by considering the opinions of the community as much as possible. MemeNgin's roadmap can be found on the Trello page.
+
+tutorials:
+  startup_menu: Startup menu is activated by pressing the menu button at the top left of the screen. Here you will find a menu where you can navigate through recent work and tutorials in the program and other people's work shared in the Steam Workshop.
+  app_bar: From this menu at the top of the screen, you can open, save, and Undo & Redo common engine features.
+  node_library: The node library menu is on the left side of the screen contains the main functions of MemeNgin.
+  node_shorcut: If you press the space bar button while focused on the editor, you can bring up a shortcut menu with the same function as the node library.
+  editor: In the editor, you can organize your work on a node-based workflow. It consists of inputs, outputs, and the nodes you will be working on.
+  inputs: Input nodes are bundles that can contain variable nodes and image nodes, and you can select and group elements that bring significant changes to your work. When sharing these nodes in the future, it is designed so that you can customize your work by simply modifying these values in preview mode without opening the editor.
+  output: The output node is a node that displays the results of the project. It is larger than other nodes, so it can be easily recognized. When saving a project (*.mmng), the result image of this node is saved as a thumbnail. When you share your work to steam workshop in the future, the input value of this node must be connected.
+  preview: The preview menu is at upper side of the right side of the screen to preview the image of the output node. You can immediately see how changes that occur during node operations are reflected in the final result. You can save your work as image, zoom to fit image size.
+  properties: Property is a menu at the bottom right of the screen, and it is a menu where you can change the property value of each node. For most properties, you can decide whether to expose or not by turning the check box to the left of the property value On/Off.
+  library:
+    shape: The shape node is a set of nodes that are transforming the shape of the image. It receives one input image and outputs it as a transformed image. This includes image transform (and crop), canvas resize, etc.
+    color: The color node is a set of nodes that are changing the color of the image according to rules. There are common color change options such as Brightness Contrast, Hue Shift, and LUT.
+    composite: The composition node takes one foreground node and a background node as input values and performs composition. The blend node allows you to choose from a variety of image compositing rules. When selecting most composite nodes, the corresponding transform widget is activated. Foreground images can be placed using the widget.
+    create: Create node can create various nodes such as image, text, checkered pattern, etc. The nodes here can be used as input values for the shape and color nodes mentioned earlier. Nodes that can be used for productive purposes, such as the QR Code node, will also be added in the future.
+    logic: A logical node is a set of nodes that are used as input values of other nodes like variable nodes, or nodes that solve logical problems such as detection and stylization, and nodes that help logically design tasks such as input, output, and copy. and nodes that can logically program the work, such as Arithmetic operation, Control operation, etc., will be added in the future. Please note that some nodes here are incomplete as an experimental stage.
+  property:
+    node: A property node is a node that contains values such as strings, integers, decimals, vectors, and colors, and allows you to modify this value outside the node by connecting it to the exposed property value of another node.
+    expose: Most properties can be exposed by clicking the check box to the left of the property value, and the exposed properties appear as a socket on the left side of the node, and the result value of the property node can be connected.
+    propagate: Property nodes can be connected continuously in a chain, and values are transferred from the left node to the right node.
+  image:
+    rule_one: When creating an image, it will remain the original image or the image size of the input node unless there are special conditions. When creating a new image node (Create), the image size is fixed at 1024 x 1024.
+    rule_two: There are options to change the image size are Resize and Transform2D nodes. The size of the image changed by this node will remain the same for subsequent nodes.
+    rule_three: In the case of a composite node that takes two or more images as input values, the size of the background image is changed to the size of the new node.
+  navigation:
+    zoom: Using the mouse wheel, you can zoom in/out the work area.
+    zoom_selected: When the nodes are selected, press the'F' button or the zoom selected button at the top of the screen to enlarge the selected item. Selecting an Input or Output node in the library also triggers similar zoom effect on input & output node instead of creating it.
+    panning: You can move around the editor area by dragging the right mouse button or the wheel button.
+    preview: You can also browse the preview view in the same way as the editor.
+  logics:
+    string: Strings can be input to text nodes, and can also be used as input values such as QR codes.
+    float: Float is a decimal numbers appear as numbers ranging from 0 to 1, and are used for various property values. You can adjust the range of values using the MapFloat node.
+    integer: Integer is a number from 0 to 100, and is mainly used for nodes that take counts as input.
+    corelation: One property value, depending on the design of the node, can be the rotation angle or the brightness of the image, and can affect multiple nodes at the same time.
