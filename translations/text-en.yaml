@@ -2,11 +2,11 @@ memeNgin:
   about: MemeNgin is a node-based image engine developed for meme creators.
   detail: In MemeNgin, you can design an image meme machine that fits your needs by building logic circuits such as shape, color, text, and compositing, not just adding text to images. The machine designed in this way becomes a template that allows you to create new meme with minimal efforts. The iterative process of image modification can also be programmed with logic nodes and used for productive purposes.
   
-  full_version_title: If you purchase MemeNgin
+  full_version_title: If you purchase MemeNgin,
   full_version:
     - You can use the Steam Workshop to share your work with others and edit others' work. (working on progress)
     - Unlimited saves.
-    - You are helping me to completing the this project.
+    - You can help me to completing the this project.
 
   links:
     discord: Discord server
@@ -18,6 +18,7 @@ memeNgin:
   text_open_source: MemeNgin is an open source project. We try to determine the direction of the project by considering the opinions of the community as much as possible. MemeNgin's roadmap can be found on the Trello page.
 
 tutorials:
+  intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
   startup_menu: Startup menu is activated by pressing the menu button at the top left of the screen. Here you will find a menu where you can navigate through recent work and tutorials in the program and other people's work shared in the Steam Workshop.
   app_bar: From this menu at the top of the screen, you can open, save, and Undo & Redo common engine features.
   node_library: The node library menu is on the left side of the screen contains the main functions of MemeNgin.
