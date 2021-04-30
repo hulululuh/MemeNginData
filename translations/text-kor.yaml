@@ -17,6 +17,12 @@ memeNgin:
 
   text_open_source: MemeNgin은 오픈소스 프로젝트입니다. 커뮤니티의 의견을 최대한 반영하여 프로젝트의 방향을 결정하려 합니다. MemeNgin의 로드맵은 트렐로 페이지에서 확인하실 수 있습니다.
 
+close_dialog:
+  message: 변경 사항을 저장 하시겠습니까?
+  save: 저장
+  close: 저장하지 않음
+  cancel: 취소
+
 tutorials:
   intro: 반갑습니다! MemeNgin을 사용해 주셔서 감사합니다. 여러분은 이번 튜토리얼에서 MemeNgin의 기본적인 기능을 둘러보게 될 것입니다.
   startup_menu: 화면 좌측 상단의 메뉴 버튼을 누르면 시작 메뉴가 활성화 됩니다. 여기에서는 최근의 작업물과 프로그램의 튜토리얼 및 스팀 워크샵에 공유 된 다른 사람의 작업물을 탐색 할 수 있는 메뉴가 있습니다.

@@ -17,6 +17,12 @@ memeNgin:
 
   text_open_source: MemeNgin is an open source project. We try to determine the direction of the project by considering the opinions of the community as much as possible. MemeNgin's roadmap can be found on the Trello page.
 
+close_dialog:
+  message: Do you want to save changes?
+  save: Save
+  close: Don't Save
+  cancel: Cancel
+
 tutorials:
   intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
   startup_menu: Startup menu is activated by pressing the menu button at the top left of the screen. Here you will find a menu where you can navigate through recent work and tutorials in the program and other people's work shared in the Steam Workshop.
