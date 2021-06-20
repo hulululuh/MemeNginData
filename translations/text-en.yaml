@@ -17,11 +17,40 @@ memeNgin:
 
   text_open_source: MemeNgin is an open source project. We try to determine the direction of the project by considering the opinions of the community as much as possible. MemeNgin's roadmap can be found on the Trello page.
 
-close_dialog:
-  message: Do you want to save changes?
-  save: Save
-  close: Don't Save
+ui_general:
+  okay: Okay
+  agree: Agree
+  disagree: Disagree
   cancel: Cancel
+  close: Close
+  save: Save
+  do_not_save: Don't Save
+  update: Update
+  publish: Publish
+
+close_dialog:
+  title: MemeNgin
+  message: Do you want to save changes?
+
+publish_dialog:
+  title: Publish your work on steam workshop
+  title_item: Title
+  description: Description
+  age_rating: Age rating
+  tags: Tags
+  derivative: Allow others to make derivative work from this publication
+  agree_terms: I agree terms and conditions*
+  thumbnail: Thumbnail
+  find_on_steam: Find it on steam
+  required: '* indicates required field'
+
+age_dialog:
+  title: About age rating
+  message: Blah
+
+legal_dialog:
+  title: Terms of agreement
+  message: Blah
 
 tutorials:
   intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
