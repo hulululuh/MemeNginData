@@ -27,6 +27,7 @@ ui_general:
   do_not_save: 저장하지 않고 종료
   update: 업데이트
   publish: 출시하기
+  steam_must_run: 스팀 클라이언트가 실행 중이어야 합니다!!!
 
 close_dialog:
   title: MemeNgin

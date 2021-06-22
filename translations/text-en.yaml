@@ -27,6 +27,7 @@ ui_general:
   do_not_save: Don't Save
   update: Update
   publish: Publish
+  steam_must_run: The steam client must be running!!!
 
 close_dialog:
   title: MemeNgin
