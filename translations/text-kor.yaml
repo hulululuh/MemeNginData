@@ -28,6 +28,7 @@ ui_general:
   update: 업데이트
   publish: 출시하기
   steam_must_run: 스팀 클라이언트가 실행 중이어야 합니다!!!
+  create: 만들기
 
 close_dialog:
   title: MemeNgin
@@ -52,6 +53,10 @@ age_dialog:
 legal_dialog:
   title: 이용 약관
   message: Blah
+
+new_document_dialog:
+  title: 새로운 밈 만들기
+  message: 프로젝트의 이름을 정해주세요
 
 tutorials:
   intro: 반갑습니다! MemeNgin을 사용해 주셔서 감사합니다. 여러분은 이번 튜토리얼에서 MemeNgin의 기본적인 기능을 둘러보게 될 것입니다.

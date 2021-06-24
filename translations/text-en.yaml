@@ -28,6 +28,7 @@ ui_general:
   update: Update
   publish: Publish
   steam_must_run: The steam client must be running!!!
+  create: Create
 
 close_dialog:
   title: MemeNgin
@@ -52,6 +53,10 @@ age_dialog:
 legal_dialog:
   title: Terms of agreement
   message: Blah
+
+new_document_dialog:
+  title: Create new memes
+  message: Please name your project
 
 tutorials:
   intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
