@@ -54,7 +54,22 @@ age_dialog:
 
 legal_dialog:
   title: Terms of agreement
-  message: Blah
+  steam_tos:
+    title: Steam terms of service rules
+    must_not: "Your submission must not violate:"
+    subscriber_agreement: Steam Subscriber Agreement
+    online_conduct: Steam Online Conduct
+    rules: Rules and Guidelines For Steam Discussions, Reviews, and User Generated Content
+    artwork: Steam Workshop Artwork guidelines
+  mmng_tos:
+    title: MEMENGIN Terms of Service and UGC guidelines
+    must_not: "Your submission must not contain:"
+    harmful: · harmful links or message. Even if it is embedded in the QR code.
+    offensive: · offensive content. (e.g. racism, gore)
+    pornographic: · pornographic content. (e.g. pornographic sprays/decals, nudity)
+    must_owner: You must be the owner of uploaded submission.
+    stolen: · Stolen artwork (even edited) is not allowed.
+  agree_legal: "You have to agree Steam workshop legal agreement to proceed. (click here)"
 
 new_document_dialog:
   title: Create new memes
