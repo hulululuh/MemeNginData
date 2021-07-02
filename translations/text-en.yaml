@@ -4,8 +4,8 @@ memeNgin:
   
   full_version_title: If you purchase MemeNgin,
   full_version:
-    - You can use the Steam Workshop to share your work with others and edit others' work. (working on progress)
-    - Unlimited saves.
+    - You can actively participate in the memengin community based on steamworks.
+    - You can use the Steam Workshop to share your work with others and get inspirations from others' work. (working on progress)
     - You can help me to completing the this project.
 
   links:
@@ -29,6 +29,8 @@ ui_general:
   publish: Publish
   steam_must_run: The steam client must be running!!!
   create: Create
+  subscribe: Subscribe
+  unsubscribe: Un-Subscribe
 
 close_dialog:
   title: MemeNgin
