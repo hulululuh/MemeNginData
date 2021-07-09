@@ -32,6 +32,8 @@ ui_general:
   subscribe: Subscribe
   unsubscribe: Un-Subscribe
 
+experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
+
 close_dialog:
   title: MemeNgin
   message: Do you want to save changes?
