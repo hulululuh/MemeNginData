@@ -30,7 +30,7 @@ ui_general:
   steam_must_run: 스팀 클라이언트가 실행 중이어야 합니다!!!
   create: 만들기
   subscribe: 구독하기
-  unsubscribe: 구독취소
+  unsubscribe: 구독 중
 
 experimental: 실험적인 노드들은 현재 완성도는 낮으나, 향후 채택 될 수 있는 노드들을 보여줍니다. 향후 개선, 수정, 상황에 따라 삭제 될 수 있으므로 사용에 유의하시기 바랍니다. 
 
