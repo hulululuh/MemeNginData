@@ -31,6 +31,8 @@ ui_general:
   create: Create
   subscribe: Subscribe
   unsubscribe: Subscribed
+  success: Success
+  fail: Fail
 
 experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
 
@@ -49,6 +51,8 @@ publish_dialog:
   thumbnail: Thumbnail
   find_on_steam: Find it on steam
   required: '* indicates required field'
+  success: Project has successfully published.
+  fail: Failed to release the project. Please try again later. If the error recurs, please contact the developer.
 
 age_dialog:
   title: About age rating
