@@ -51,7 +51,7 @@ publish_dialog:
   thumbnail: Thumbnail
   find_on_steam: Find it on steam
   required: '* indicates required field'
-  success: Project has successfully published.
+  success: Project has successfully published. It may take some time for it to be applied to Steam.
   fail: Failed to release the project. Please try again later. If the error recurs, please contact the developer.
 
 age_dialog:
