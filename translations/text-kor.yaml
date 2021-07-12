@@ -56,7 +56,16 @@ publish_dialog:
 
 age_dialog:
   title: 나이 등급에 관하여
-  message: Blah
+  message: 많은 어린 사용자가 밈을 사용하는게 예상 되므로 성적인 콘텐츠나 폭력적인 콘텐츠를 공개할 때 각별한 주의가 필요합니다. 아래 표를 사용하여 귀하의 밈이 속한 연령대를 결정하십시오. 확실하지 않은 경우 더 높은 연령 수준을 선택하는 것이 좋습니다. 실제 등급보다 낮은 등급의 콘텐츠는 워크샵에서 제외될 수 있습니다.
+  everyone: 모두 (0-12)
+  everyone_desc: > 
+    성적인 표현, 폭력적인 표현 없음
+  questionable: 불확실 (13-17)
+  questionable_desc: "모두 등급이라고 여겨지나, 약간 의심되는 부분이 있는 경우."
+  mature: 성인 (18-)
+  mature_desc: "경미한 노출, 경미한 폭력이 묘사된 콘텐츠"
+  ban: 금지
+  ban_desc: "사실적인 나체의 묘사, 성행위가 묘사된 콘텐츠, 고어물"
 
 legal_dialog:
   title: 이용약관

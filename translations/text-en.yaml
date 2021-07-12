@@ -56,7 +56,16 @@ publish_dialog:
 
 age_dialog:
   title: About age rating
-  message: Blah
+  message: Many younger users primarily use memes, so we need to be extra careful when releasing sexual or violent content. Use the table below to determine which age class your meme belongs to. When in doubt, it is recommended to select a higher age level. Content rated lower than the actual rating may be excluded from workshop.
+  everyone: Everyone (0-12)
+  everyone_desc: > 
+    No sexual expresion, No violence
+  questionable: Questionable (13-17)
+  questionable_desc: "It could be an Everyone grade, but if you have some doubts."
+  mature: Mature (18-)
+  mature_desc: "Mild-nudity, Mild-violence"
+  ban: Ban
+  ban_desc: "Photo-Realistic nudity, Sexual acts, Gore"
 
 legal_dialog:
   title: Terms of agreement
