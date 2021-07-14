@@ -90,6 +90,15 @@ new_document_dialog:
   title: Create new memes
   message: Please name your project
 
+introductions:
+  intro: Hello! Thank you for using MemeNgin. MemeNgin is a node-based image engine that can customize every step of modifying an image, making it effective for creating memes or design templates.
+  nodes: Your project consists of Input nodes and an Output node, with nodes and connections representing the correlations between them, Where nodes are basic elements that perform fixed operations such as image modification, values, and logic.
+  inputs: Inputs is a place to collect values ​​that have an important impact on your project, and you can include text, integers, real numbers, colors, and more.
+  output: The Output node is the final result of the operation, and you can save the result as an image by clicking Save as Image in the upper right corner of the screen.
+  workshop: In MemeNgin, you can share your meme through Steam workshop. Projects shared here can help others print memes with custom text or colors, or get ideas for new memes.
+  startup_menu: Click the Start menu in the upper left corner to access Tutorials, Your Work, and the Steam Workshop search function. *MemeNgin is currently under development, so please understand that bugs may occur in unexpected situations.
+  dont_show_again: Don't show this dialog on startup.
+
 tutorials:
   intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
   startup_menu: Startup menu is activated by pressing the menu button at the top left of the screen. Here you will find a menu where you can navigate through recent work and tutorials in the program and other people's work shared in the Steam Workshop.
