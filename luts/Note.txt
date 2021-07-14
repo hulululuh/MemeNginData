@@ -1,1 +1,0 @@
-Replace the luts that currently have, we don't have distributable license for those luts and it is currently used for testing purpose.
