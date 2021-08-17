@@ -1,142 +1,142 @@
 memeNgin:
-  about: MemeNgin is a node-based image engine developed for meme creators.
-  detail: In MemeNgin, you can design an image meme machine that fits your needs by building logic circuits such as shape, color, text, and compositing, not just adding text to images. The machine designed in this way becomes a template that allows you to create new meme with minimal efforts. The iterative process of image modification can also be programmed with logic nodes and used for productive purposes.
+  about: MemeNginは、ミームクリエイターのために開発された、ノードベースの画像制作・加工エンジンです。
+  detail: MemeNginでは、画像にテキストを追加するだけでなく、形状、色、テキスト、合成などの論理回路を構築することで、ニーズに合ったミーム画像マシンを設計できます。 このように設計されたマシンは、最小限の労力で新しいミームを作成できるテンプレートになります。 画像修正の反復プロセスは、ロジックノードを使用してプログラムし、生産的な用途で使用することもできます。
   
-  full_version_title: If you purchase MemeNgin,
+  full_version_title: MemeNginを購入すると
   full_version:
-    - You can actively participate in the memengin community based on steamworks.
-    - You can use the Steam Workshop to share your work with others and get inspirations from others' work. (working on progress)
-    - You can help me to completing the this project.
+    - SteamworksのMemeNginコミュニティに積極的に参加できます。
+    - Steamワークショップを利用して、自分のプロジェクトを他のユーザーと共有し、他のユーザーの共有プロジェクトからインスピレーションを得ることができます。
+    - MemeNginの開発プロジェクトを手助けすることができます。
 
   links:
-    discord: Discord server
-    roadmap: Trello page
+    discord: Discordサーバー
+    roadmap: Trelloのページ
     subreddit: Sub-reddit
     source_code: Github
-    translate: I need help translating into your language, including English. You can check the details on the GitHub page.
+    translate: 英語を含め、MemeNginの翻訳を手伝っていただける方を募集しています。 詳細はGithubページから確認できます。
 
-  text_open_source: MemeNgin is an open source project. We try to determine the direction of the project by considering the opinions of the community as much as possible. MemeNgin's roadmap can be found on the Trello page.
+  text_open_source: MemeNginはオープンソースプロジェクトです。 コミュニティの皆様のご意見を参考に、プロジェクトの方向性を決定していきます。 MemeNginのロードマップは、Trelloページにあります。
 
 ui_general:
-  okay: Okay
-  agree: Agree
-  disagree: Disagree
-  cancel: Cancel
-  close: Close
-  save: Save
-  do_not_save: Don't Save
-  update: Update
-  publish: Publish
-  steam_must_run: The steam client must be running!!!
-  create: Create
-  subscribe: Subscribe
-  unsubscribe: Subscribed
-  success: Success
-  fail: Fail
-  language: Language
+  okay: OK
+  agree: はい
+  disagree: いいえ
+  cancel: キャンセル
+  close: 閉じる
+  save: 保存
+  do_not_save: 保存しない
+  update: アップデート
+  publish: 公開する
+  steam_must_run: Steamクライアントが起動している必要があります！！！
+  create: 作成
+  subscribe: サブスクライブ
+  unsubscribe: サブスクリプションの解除
+  success: 成功！
+  fail: 失敗
+  language: 言語
 
-experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
+experimental: Experimentalノードは現在動作が不完全ですが、将来実装される可能性のあるノードを示しています。今後のアップデートで改良、修正、または削除される可能性があります。
 
 close_dialog:
   title: MemeNgin
-  message: Do you want to save changes?
+  message: MemeNginを終了しようとしています。変更内容を保存しますか？
 
 language_dialog:
-  save_before: Please save your work before you proceed.
-  help_translate: Languages or menus that have not been translated will be displayed in English. help me translate to your language, including english!
-  go_help: Go to help with translation.
+  save_before: 続行する前に、現在の作業内容を保存してください。
+  help_translate: 翻訳されていない言語やメニューは英語で表示されます。MemeNginでは、英語を含め、プロジェクトの翻訳を手伝っていただける方を募集しています！
+  go_help: MemeNginの翻訳を手伝う。（Githubページへ飛びます）
 
 publish_dialog:
-  title: Publish your work on steam workshop
-  title_item: Title
-  description: Description
-  age_rating: Age rating
-  tags: Tags
-  derivative: Allow others to make derivative work from this publication
-  agree_terms: I agree terms and conditions*
-  thumbnail: Thumbnail
-  find_on_steam: Find it on steam
-  required: '* indicates required field'
-  success: Project has successfully published. It may take some time for it to be applied to Steam.
-  fail: Failed to release the project. Please try again later. If the error recurs, please contact the developer.
+  title: Steamワークショップに公開
+  title_item: タイトル
+  description: 説明を入力
+  age_rating: 対象年齢の区分
+  tags: タグ
+  derivative: 他のユーザーによる派生作品の作成を許可する
+  agree_terms: 利用規約に同意します*
+  thumbnail: サムネイル
+  find_on_steam: Steam作品ページを開く
+  required: '* は必須入力項目です'
+  success: プロジェクトが正常に公開されました。Steamに反映されるまで時間がかかる場合があります。
+  fail: プロジェクトのリリースに失敗しました。時間をおいてもう一度試してみてください。解決しない場合は開発者に連絡してください。
 
 age_dialog:
-  title: About age rating
-  message: Many younger users primarily use memes, so we need to be extra careful when releasing sexual or violent content. Use the table below to determine which age class your meme belongs to. When in doubt, it is recommended to select a higher age level. Content rated lower than the actual rating may be excluded from workshop.
+  title: 対象年齢について
+  message: 若いユーザーの多くがミームを使用しているため、性的または暴力的なコンテンツをリリースする場合は特に注意する必要があります。 以下のテーブルを参考に、ミームの年齢区分を判別してください。 判別が難しい場合は、より高い年齢区分を選択することをお勧めします。 実際の区分よりも低く設定されたコンテンツは、ワークショップから除外される場合があります。
   everyone: Everyone (0-12)
   everyone_desc: > 
-    No sexual expresion, No violence
+    性的・暴力的表現なし
   questionable: Questionable (13-17)
-  questionable_desc: "It could be an Everyone grade, but if you have some doubts."
+  questionable_desc: "Everyoneに属するかどうか判別が難しい場合"
   mature: Mature (18-)
-  mature_desc: "Mild-nudity, Mild-violence"
+  mature_desc: "軽度な性的・暴力的表現"
   ban: Ban
-  ban_desc: "Photo-Realistic nudity, Sexual acts, Gore"
+  ban_desc: "ヌード、性行為、または残虐的な表現を含む"
 
 legal_dialog:
-  title: Terms of agreement
+  title: 利用規約
   steam_tos:
-    title: Steam terms of service rules
-    must_not: "Your submission must not violate:"
-    subscriber_agreement: Steam Subscriber Agreement
-    online_conduct: Steam Online Conduct
-    rules: Rules and Guidelines For Steam Discussions, Reviews, and User Generated Content
-    artwork: Steam Workshop Artwork guidelines
+    title: Steamの利用規約
+    must_not: "あなたの作品は、これらの事項に違反してはいけません:"
+    subscriber_agreement: Steam 利用規約
+    online_conduct: Steam オンライン規則
+    rules: Steamのルールとガイドライン：掲示板、レビュー、ユーザー生成コンテンツ
+    artwork: Steamコミュニティアートワークのガイドライン
   mmng_tos:
-    title: MEMENGIN Terms of Service and UGC guidelines
-    must_not: "Your submission must not contain:"
-    harmful: · harmful links or message. Even if it is embedded in the QR code.
-    offensive: · offensive content. (e.g. racism, gore)
-    pornographic: · pornographic content. (e.g. pornographic sprays/decals, nudity)
-    must_owner: You must be the owner of uploaded submission.
-    stolen: · Stolen artwork (even edited) is not allowed.
-  agree_legal: "You have to agree Steam workshop legal agreement to proceed. (click here)"
+    title: MEMENGIN の利用規約および UGCガイドライン
+    must_not: "あなたの作品に、以下の内容を含めてはいけません:"
+    harmful: · 有害なリンクまたはメッセージ（そのような内容のQRコードも含む）.
+    offensive: · 不快なコンテンツ (例: 人種差別,、残虐的表現)
+    pornographic: · 性的なコンテンツ (例: 性的表現のあるスプレー・デカール、ヌード)
+    must_owner: アップロードされた作品の所有者であること。
+    stolen: · 他の所有者の作品（加工したものを含む）の無断アップロードを禁じます。
+  agree_legal: "作品をアップロードする場合、Steamワークショップ利用規約に同意する必要があります。 (ここをクリック)"
 
 new_document_dialog:
-  title: Create new memes
-  message: Please name your project
+  title: 新しいミームを作成
+  message: プロジェクト名を入力してください
 
 introductions:
-  intro: Hello! Thank you for using MemeNgin. MemeNgin is a node-based image engine that can customize every step of modifying an image, making it effective for creating memes or design templates.
-  nodes: Your project consists of Input nodes and an Output node, with nodes and connections representing the correlations between them, Where nodes are basic elements that perform fixed operations such as image modification, values, and logic.
-  inputs: Inputs is a place to collect values ​​that have an important impact on your project, and you can include text, integers, real numbers, colors, and more.
-  output: The Output node is the final result of the project, and you can save the result as an image by clicking Save as Image in the upper right corner of the screen.
-  workshop: In MemeNgin, you can share your meme through Steam workshop. Projects shared here can help others print memes with custom text or colors, or get ideas for new memes.
-  startup_menu: Click the Start menu in the upper left corner to access Tutorials, Your Work, and the Steam Workshop search function. *MemeNgin is currently under development, so please understand that bugs may occur in unexpected situations.
-  dont_show_again: Don't show this dialog on startup.
+  intro: こんにちは！ MemeNginをご利用いただきありがとうございます。MemeNginは、画像を変更するすべてのステップをカスタマイズできるノードベースの画像制作・加工エンジンであり、ミームやデザインテンプレートの作成に向いています。
+  nodes: プロジェクトは入力ノードと出力ノードで構成され、ノードと接続はそれらの間の相関関係を表しています。ノードは画像の変更、値、ロジックなどの固定操作を実行する基本要素です。
+  inputs: Inputsは、プロジェクトに重要な影響を与える値を格納する場所です。​​テキスト、整数、実数、色などを含めることができます。
+  output: Outputノードはプロジェクトの最終結果を表示したものです。画面の右上隅にある「画像として保存」をクリックすると、結果を画像として保存できます。
+  workshop: MemeNginでは、Steamワークショップを通じてミームを共有できます。ここで共有されるプロジェクトは、他の人がテキストや色などを改変したミームを作ったり、新しいミームのアイデアを得るのに役立ちます。
+  startup_menu: 左上隅のスタートメニューをクリックして、チュートリアル、プロジェクト、Steamワークショップの検索機能にアクセスします。 ※MemeNginは現在開発中のため、予期せぬ事態が発生する場合がございますので、あらかじめご了承ください。
+  dont_show_again: 起動時にこのダイアログを表示しない
 
 tutorials:
-  intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
-  startup_menu: Startup menu is activated by pressing the menu button at the top left of the screen. Here you will find a menu where you can navigate through recent work and tutorials in the program and other people's work shared in the Steam Workshop.
-  app_bar: From this menu at the top of the screen, you can open, save, and Undo & Redo common engine features.
-  node_library: The node library menu is on the left side of the screen contains the main functions of MemeNgin.
-  node_shorcut: If you press the space bar button while focused on the editor, you can bring up a shortcut menu with the same function as the node library.
-  editor: In the editor, you can organize your work on a node-based workflow. It consists of inputs, outputs, and the nodes you will be working on.
-  inputs: Input nodes are bundles that can contain variable nodes and image nodes, and you can select and group elements that bring significant changes to your work. When sharing these nodes in the future, it is designed so that you can customize your work by simply modifying these values in preview mode without opening the editor.
-  output: The output node is a node that displays the results of the project. It is larger than other nodes, so it can be easily recognized. When saving a project (*.mmng), the result image of this node is saved as a thumbnail. When you share your work to steam workshop in the future, the input value of this node must be connected.
-  preview: The preview menu is at upper side of the right side of the screen to preview the image of the output node. You can immediately see how changes that occur during node operations are reflected in the final result. You can save your work as image, zoom to fit image size.
-  properties: Property is a menu at the bottom right of the screen, and it is a menu where you can change the property value of each node. For most properties, you can decide whether to expose or not by turning the check box to the left of the property value On/Off.
+  intro: はじめまして！ MemeNginをご利用いただきありがとうございます。 このチュートリアルでは、MemeNginの基本的な機能について説明します。
+  startup_menu: 画面左上隅の青色のスタートメニューボタンを押すと、スタートアップメニューが開きます。このメニューから、最近開いたプロジェクトやチュートリアル、Steamワークショップで共有されている他のユーザーの作品にアクセスできます。
+  app_bar: 画面上部のこのメニューから、プロジェクトの保存や読み込みや、作業内容の取り消し・やり直し（アンドゥ・リドゥ）ができます。
+  node_library: 画面の左側にあるノードライブラリには、MemeNginの主な機能が含まれています。
+  node_shorcut: エディタにフォーカスしているときにSpaceキーを押すと、ノードライブラリと同じ機能を持つショートカットメニューを表示できます。
+  editor: エディタでは、ノードベースのワークフローで作業を整理することができます。このワークフローは、入力と出力、そして作業するノードで構成されています。
+  inputs: Inputノードは、可変ノードと画像ノードを含むことができるバンドルであり、作業に大きな変更をもたらす要素を選択してグループ化できます。 これらのノードをInputsノードに格納させると、OutputノードににInputsに格納したノードのプロパティが表示されるようになり、これらの値を変更するだけで作業をカスタマイズできるように設計されています。 
+  output: Outputノードは、プロジェクトの結果を表示するノードです。他のノードよりも大きく表示されるので認識しやすくなっています。プロジェクト(*.mmng)を保存する際、このノードの結果画像はサムネイルとして保存されます。Steamワークショップに作品を共有する際には、このノードの入力値を接続する必要があります。
+  preview: プレビューメニューは画面右上にあり、出力ノードの画像をプレビューします。 ノード操作中に発生した変更が最終結果にどのように反映されるかをすぐに確認できます。 作業内容を画像として保存したり、マウスホイールを動かしたりホイールドラッグをして画像サイズに合わせて移動やズームしたりできます。
+  properties: 画面右下のメニューで、アクティブなノードのプロパティ値を変更できます。 ほとんどのプロパティでは、プロパティ値の左側にあるチェックボックスをオンにすることで、エディタ上でノードの入力を追加することができ、これによって入力ノードを繋げることができます。
   library:
-    shape: The shape node is a set of nodes that are transforming the shape of the image. It receives one input image and outputs it as a transformed image. This includes image transform (and crop), canvas resize, etc.
-    color: The color node is a set of nodes that are changing the color of the image according to rules. There are common color change options such as Brightness Contrast, Hue Shift, and LUT.
-    composite: The composition node takes one foreground node and a background node as input values and performs composition. The blend node allows you to choose from a variety of image compositing rules. When selecting most composite nodes, the corresponding transform widget is activated. Foreground images can be placed using the widget.
-    create: Create node can create various nodes such as image, text, checkered pattern, etc. The nodes here can be used as input values for the shape and color nodes mentioned earlier. Nodes that can be used for productive purposes, such as the QR Code node, will also be added in the future.
-    logic: A logical node is a set of nodes that are used as input values of other nodes like variable nodes, or nodes that solve logical problems such as detection and stylization, and nodes that help logically design tasks such as input, output, and copy. and nodes that can logically program the work, such as Arithmetic operation, Control operation, etc., will be added in the future. Please note that some nodes here are incomplete as an experimental stage.
+    shape: Shapeノードは、画像の形状を変換するノードのセットです。 1つの画像を入力値として受け取り、それを変換された画像として出力します。これには、画像の変換（およびトリミング）、キャンバスのサイズ変更などが含まれます。
+    color: Colorノードは、法則に従って画像の色を変更するノードのセットです。明るさとコントラスト、色相シフト、LUTなどの一般的な色変更オプションがあります。
+    composite: Compositeノードは、前景・背景となる画像ノード1つずつを入力値として受け取り、コンポジションを実行します。 Blendノードを使用すると、乗算やオーバーレイなどのブレンドが行えます。 ほとんどのCompositeノードでは、変換ウィジェットがアクティブになり、ウィジェットを使用して前景画像の移動・回転・拡大縮小が行えます。
+    create: Createノードは、画像、図形、テキスト、市松模様などを作成できるノードのセットです。ここのノードは、前述のShapeノードとColorノードの入力値として使用できます。 将来的には、QRコードノードなど、生産的な目的で使用できるノードも追加される予定です。
+    logic: Logicノードは、変数ノードなどの他のノードの入力値として使用されるノードのセット、または分岐やスタイル設定などの論理的な問題を解決するノード、および入力、出力、複製などのタスクを論理的に設計するのに役立つノードです。 将来的には、算術演算や制御演算など、作業を論理的にプログラムできるノードが追加される予定です。 ここのいくつかのノードは実験段階として不完全であることに注意してください。
   property:
-    node: A property node is a node that contains values such as strings, integers, decimals, vectors, and colors, and allows you to modify this value outside the node by connecting it to the exposed property value of another node.
-    expose: Most properties can be exposed by clicking the check box to the left of the property value, and the exposed properties appear as a socket on the left side of the node, and the result value of the property node can be connected.
-    propagate: Property nodes can be connected continuously in a chain, and values are transferred from the left node to the right node.
+    node: Propertyノードは、文字列、整数、小数、ベクトル、色などの値を含むノードであり、別のノードの公開されたプロパティ値に接続することで、ノードの外部でこの値を変更できます。
+    expose: プロパティ値の左側にあるチェックボックスをクリックすると、ほとんどのプロパティを公開できます。公開されたプロパティはノードの左側にソケットとして表示され、Propertyノードの結果値を接続できます。
+    propagate: Propertyノードはチェーンで連続的に接続でき、値は左側のノードから右側のノードに転送されます。
   image:
-    rule_one: When creating an image, it will remain the original image or the image size of the input node unless there are special conditions. When creating a new image node (Create), the image size is fixed at 1024 x 1024.
-    rule_two: There are options to change the image size are Resize and Transform2D nodes. The size of the image changed by this node will remain the same for subsequent nodes.
-    rule_three: In the case of a composite node that takes two or more images as input values, the size of the background image is changed to the size of the new node.
+    rule_one: 画像を作成する場合、特別な条件がない限り、元の画像または入力ノードの画像サイズのままになります。ノードで模様や色などを新しく作成する場合、画像サイズは1024 x1024に固定されます。
+    rule_two: 画像サイズを変更する場合、ResizeノードまたはTransform2Dノードを使用する方法があります。このノードによって変更された画像のサイズは、後続のノードでも同じままです。
+    rule_three: 入力値として2つ以上の画像を取得するCompositeノードの場合、背景画像のサイズは新しいノードのサイズに変更されます。
   navigation:
-    zoom: Using the mouse wheel, you can zoom in/out the work area.
-    zoom_selected: When the nodes are selected, press the 'F' button or the zoom selected button at the top of the screen to enlarge the selected item. Selecting an Input or Output node in the library also triggers similar zoom effect on input & output node instead of creating it.
-    panning: You can move around the editor area by dragging the right mouse button or the wheel button.
-    preview: You can also browse the preview view in the same way as the editor.
+    zoom: マウスホイールを動かして、エディタ領域をズームイン/ズームアウトできます。
+    zoom_selected: ノードを選択して、Fキーまたは画面上部の「Zoom selection」ボタンを押すと、選択した項目にフォーカスして拡大します。 画面左のノードライブラリでInputsノードまたはOutputノードを選択すると、それぞれのノードを作成する代わりに、同様のズーム効果がトリガーされます。
+    panning: マウスの右ボタンまたはホイールボタンのドラッグで、エディタ領域内を移動できます。
+    preview: エディターと同じ方法で、画面右上のプレビューのズーム、移動が行えます。
   logics:
-    string: Strings can be input to text nodes, and can also be used as input values such as QR codes.
-    float: Float is a decimal numbers appear as numbers ranging from 0 to 1, and are used for various property values. You can adjust the range of values using the MapFloat node.
-    integer: Integer is a number from 0 to 100, and is mainly used for nodes that take counts as input.
-    corelation: One property value, depending on the design of the node, can be the rotation angle or the brightness of the image, and can affect multiple nodes at the same time.
+    string: 文字列はTextノードに入力でき、QRコードなどの入力値としても使用できます。
+    float: Floatは、10進数表記で小数第三位までを含む0から1までの数値で、さまざまなプロパティ値に使用されます。 MapFloatノードを使用して値の範囲を調整できます。
+    integer: Integer(Int)は、小数点を含まない0から100の整数の数値であり、主にカウントを入力として受け取るノードに使用されます。
+    corelation: 1つのプロパティ値は、ノードのデザインによっては回転角や画像の明るさになり、このように同時に複数のノードに影響を与えることができます。
