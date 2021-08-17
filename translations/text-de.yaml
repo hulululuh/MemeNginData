@@ -1,0 +1,142 @@
+memeNgin:
+  about: MemeNgin is a node-based image engine developed for meme creators.
+  detail: In MemeNgin, you can design an image meme machine that fits your needs by building logic circuits such as shape, color, text, and compositing, not just adding text to images. The machine designed in this way becomes a template that allows you to create new meme with minimal efforts. The iterative process of image modification can also be programmed with logic nodes and used for productive purposes.
+  
+  full_version_title: If you purchase MemeNgin,
+  full_version:
+    - You can actively participate in the memengin community based on steamworks.
+    - You can use the Steam Workshop to share your work with others and get inspirations from others' work. (working on progress)
+    - You can help me to completing the this project.
+
+  links:
+    discord: Discord server
+    roadmap: Trello page
+    subreddit: Sub-reddit
+    source_code: Github
+    translate: I need help translating into your language, including English. You can check the details on the GitHub page.
+
+  text_open_source: MemeNgin is an open source project. We try to determine the direction of the project by considering the opinions of the community as much as possible. MemeNgin's roadmap can be found on the Trello page.
+
+ui_general:
+  okay: Okay
+  agree: Agree
+  disagree: Disagree
+  cancel: Cancel
+  close: Close
+  save: Save
+  do_not_save: Don't Save
+  update: Update
+  publish: Publish
+  steam_must_run: The steam client must be running!!!
+  create: Create
+  subscribe: Subscribe
+  unsubscribe: Subscribed
+  success: Success
+  fail: Fail
+  language: Language
+
+experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
+
+close_dialog:
+  title: MemeNgin
+  message: Do you want to save changes?
+
+language_dialog:
+  save_before: Please save your work before you proceed.
+  help_translate: Languages or menus that have not been translated will be displayed in English. help me translate to your language, including english!
+  go_help: Go to help with translation.
+
+publish_dialog:
+  title: Publish your work on steam workshop
+  title_item: Title
+  description: Description
+  age_rating: Age rating
+  tags: Tags
+  derivative: Allow others to make derivative work from this publication
+  agree_terms: I agree terms and conditions*
+  thumbnail: Thumbnail
+  find_on_steam: Find it on steam
+  required: '* indicates required field'
+  success: Project has successfully published. It may take some time for it to be applied to Steam.
+  fail: Failed to release the project. Please try again later. If the error recurs, please contact the developer.
+
+age_dialog:
+  title: About age rating
+  message: Many younger users primarily use memes, so we need to be extra careful when releasing sexual or violent content. Use the table below to determine which age class your meme belongs to. When in doubt, it is recommended to select a higher age level. Content rated lower than the actual rating may be excluded from workshop.
+  everyone: Everyone (0-12)
+  everyone_desc: > 
+    No sexual expresion, No violence
+  questionable: Questionable (13-17)
+  questionable_desc: "It could be an Everyone grade, but if you have some doubts."
+  mature: Mature (18-)
+  mature_desc: "Mild-nudity, Mild-violence"
+  ban: Ban
+  ban_desc: "Photo-Realistic nudity, Sexual acts, Gore"
+
+legal_dialog:
+  title: Terms of agreement
+  steam_tos:
+    title: Steam terms of service rules
+    must_not: "Your submission must not violate:"
+    subscriber_agreement: Steam Subscriber Agreement
+    online_conduct: Steam Online Conduct
+    rules: Rules and Guidelines For Steam Discussions, Reviews, and User Generated Content
+    artwork: Steam Workshop Artwork guidelines
+  mmng_tos:
+    title: MEMENGIN Terms of Service and UGC guidelines
+    must_not: "Your submission must not contain:"
+    harmful: · harmful links or message. Even if it is embedded in the QR code.
+    offensive: · offensive content. (e.g. racism, gore)
+    pornographic: · pornographic content. (e.g. pornographic sprays/decals, nudity)
+    must_owner: You must be the owner of uploaded submission.
+    stolen: · Stolen artwork (even edited) is not allowed.
+  agree_legal: "You have to agree Steam workshop legal agreement to proceed. (click here)"
+
+new_document_dialog:
+  title: Create new memes
+  message: Please name your project
+
+introductions:
+  intro: Hello! Thank you for using MemeNgin. MemeNgin is a node-based image engine that can customize every step of modifying an image, making it effective for creating memes or design templates.
+  nodes: Your project consists of Input nodes and an Output node, with nodes and connections representing the correlations between them, Where nodes are basic elements that perform fixed operations such as image modification, values, and logic.
+  inputs: Inputs is a place to collect values ​​that have an important impact on your project, and you can include text, integers, real numbers, colors, and more.
+  output: The Output node is the final result of the project, and you can save the result as an image by clicking Save as Image in the upper right corner of the screen.
+  workshop: In MemeNgin, you can share your meme through Steam workshop. Projects shared here can help others print memes with custom text or colors, or get ideas for new memes.
+  startup_menu: Click the Start menu in the upper left corner to access Tutorials, Your Work, and the Steam Workshop search function. *MemeNgin is currently under development, so please understand that bugs may occur in unexpected situations.
+  dont_show_again: Don't show this dialog on startup.
+
+tutorials:
+  intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
+  startup_menu: Startup menu is activated by pressing the menu button at the top left of the screen. Here you will find a menu where you can navigate through recent work and tutorials in the program and other people's work shared in the Steam Workshop.
+  app_bar: From this menu at the top of the screen, you can open, save, and Undo & Redo common engine features.
+  node_library: The node library menu is on the left side of the screen contains the main functions of MemeNgin.
+  node_shorcut: If you press the space bar button while focused on the editor, you can bring up a shortcut menu with the same function as the node library.
+  editor: In the editor, you can organize your work on a node-based workflow. It consists of inputs, outputs, and the nodes you will be working on.
+  inputs: Input nodes are bundles that can contain variable nodes and image nodes, and you can select and group elements that bring significant changes to your work. When sharing these nodes in the future, it is designed so that you can customize your work by simply modifying these values in preview mode without opening the editor.
+  output: The output node is a node that displays the results of the project. It is larger than other nodes, so it can be easily recognized. When saving a project (*.mmng), the result image of this node is saved as a thumbnail. When you share your work to steam workshop in the future, the input value of this node must be connected.
+  preview: The preview menu is at upper side of the right side of the screen to preview the image of the output node. You can immediately see how changes that occur during node operations are reflected in the final result. You can save your work as image, zoom to fit image size.
+  properties: Property is a menu at the bottom right of the screen, and it is a menu where you can change the property value of each node. For most properties, you can decide whether to expose or not by turning the check box to the left of the property value On/Off.
+  library:
+    shape: The shape node is a set of nodes that are transforming the shape of the image. It receives one input image and outputs it as a transformed image. This includes image transform (and crop), canvas resize, etc.
+    color: The color node is a set of nodes that are changing the color of the image according to rules. There are common color change options such as Brightness Contrast, Hue Shift, and LUT.
+    composite: The composition node takes one foreground node and a background node as input values and performs composition. The blend node allows you to choose from a variety of image compositing rules. When selecting most composite nodes, the corresponding transform widget is activated. Foreground images can be placed using the widget.
+    create: Create node can create various nodes such as image, text, checkered pattern, etc. The nodes here can be used as input values for the shape and color nodes mentioned earlier. Nodes that can be used for productive purposes, such as the QR Code node, will also be added in the future.
+    logic: A logical node is a set of nodes that are used as input values of other nodes like variable nodes, or nodes that solve logical problems such as detection and stylization, and nodes that help logically design tasks such as input, output, and copy. and nodes that can logically program the work, such as Arithmetic operation, Control operation, etc., will be added in the future. Please note that some nodes here are incomplete as an experimental stage.
+  property:
+    node: A property node is a node that contains values such as strings, integers, decimals, vectors, and colors, and allows you to modify this value outside the node by connecting it to the exposed property value of another node.
+    expose: Most properties can be exposed by clicking the check box to the left of the property value, and the exposed properties appear as a socket on the left side of the node, and the result value of the property node can be connected.
+    propagate: Property nodes can be connected continuously in a chain, and values are transferred from the left node to the right node.
+  image:
+    rule_one: When creating an image, it will remain the original image or the image size of the input node unless there are special conditions. When creating a new image node (Create), the image size is fixed at 1024 x 1024.
+    rule_two: There are options to change the image size are Resize and Transform2D nodes. The size of the image changed by this node will remain the same for subsequent nodes.
+    rule_three: In the case of a composite node that takes two or more images as input values, the size of the background image is changed to the size of the new node.
+  navigation:
+    zoom: Using the mouse wheel, you can zoom in/out the work area.
+    zoom_selected: When the nodes are selected, press the 'F' button or the zoom selected button at the top of the screen to enlarge the selected item. Selecting an Input or Output node in the library also triggers similar zoom effect on input & output node instead of creating it.
+    panning: You can move around the editor area by dragging the right mouse button or the wheel button.
+    preview: You can also browse the preview view in the same way as the editor.
+  logics:
+    string: Strings can be input to text nodes, and can also be used as input values such as QR codes.
+    float: Float is a decimal numbers appear as numbers ranging from 0 to 1, and are used for various property values. You can adjust the range of values using the MapFloat node.
+    integer: Integer is a number from 0 to 100, and is mainly used for nodes that take counts as input.
+    corelation: One property value, depending on the design of the node, can be the rotation angle or the brightness of the image, and can affect multiple nodes at the same time.

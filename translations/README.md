@@ -1,6 +1,25 @@
 # Translations
 The base language is English and can be found [here](text-en.yaml).
 
+## Languages
+-   [Korean](text-kor.yaml)
+-   [Spanish](text-es.yaml)
+-   [Japanese](text-ja.yaml)
+-   [Chinese (Simplified)](text-zh-CN.yaml)
+-   [Chinese (Traditional)](text-zh-TW.yaml)
+-   [French](text-fr.yaml)
+-   [German](text-de.yaml)
+-   [Russian](text-ru.yaml)
+-   [Turkish](text-tr.yaml)
+-   [Portuguese (Brazil)](text-pt-BR.yaml)
+-   [Portuguese (Portugal)](text-pt-PT.yaml)
+-   [Polish](text-pl.yaml)
+-   [Czech](text-cz.yaml)
+-   [Norwegian](text-no.yaml)
+-   [Swedish](text-sv.yaml)
+-   [Danish](text-da.yaml)
+-   [Dutch](text-nl.yaml)
+
 ## How language works in MemeNgin
 - If a translation file exists, then MemeNgin parses it and uses it as the current language.
 - If there is no available translation, MemeNgin uses English as fallback.
