@@ -10,7 +10,7 @@ The base language is English and can be found [here](text-en.yaml).
 -   [French](text-fr.yaml)
 -   [German](text-de.yaml)
 -   [Russian](text-ru.yaml)
--   [Turkish](text-tr.yaml)
+-   [Turkish](text-tr.yaml) 
 -   [Portuguese (Brazil)](text-pt-BR.yaml)
 -   [Portuguese (Portugal)](text-pt-PT.yaml)
 -   [Polish](text-pl.yaml)
