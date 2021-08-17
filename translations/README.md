@@ -31,11 +31,12 @@ Please DM me on Discord. I'll make a language template for you.
 Please use the following template:
 Hey, could you add a new translation?
 
+```
 "es-419": {
   name: "Español",
   data: "assets/translations/text-es.yaml",
   code: "es",
   region: "es",
 },
-
+```
 <h6> Referenced from tobspr/shapez.io </h6>
