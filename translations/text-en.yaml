@@ -33,12 +33,18 @@ ui_general:
   unsubscribe: Subscribed
   success: Success
   fail: Fail
+  language: Language
 
 experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
 
 close_dialog:
   title: MemeNgin
   message: Do you want to save changes?
+
+language_dialog:
+  save_before: Please save your work before you proceed.
+  help_translate: Languages or menus that have not been translated will be displayed in English. help me translate to your language, including english!
+  go_help: Go to help with translation.
 
 publish_dialog:
   title: Publish your work on steam workshop
@@ -126,7 +132,7 @@ tutorials:
     rule_three: In the case of a composite node that takes two or more images as input values, the size of the background image is changed to the size of the new node.
   navigation:
     zoom: Using the mouse wheel, you can zoom in/out the work area.
-    zoom_selected: When the nodes are selected, press the'F' button or the zoom selected button at the top of the screen to enlarge the selected item. Selecting an Input or Output node in the library also triggers similar zoom effect on input & output node instead of creating it.
+    zoom_selected: When the nodes are selected, press the 'F' button or the zoom selected button at the top of the screen to enlarge the selected item. Selecting an Input or Output node in the library also triggers similar zoom effect on input & output node instead of creating it.
     panning: You can move around the editor area by dragging the right mouse button or the wheel button.
     preview: You can also browse the preview view in the same way as the editor.
   logics:
