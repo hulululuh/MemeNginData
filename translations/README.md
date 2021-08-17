@@ -17,7 +17,7 @@ If you want to edit an existing translation (Fixing typos, updating it to a newe
 
 -   Click "Propose Changes"
 
-<img src="https://imgur.com/zc0SPs3" alt="propose changes" width="200">
+<img src="https://i.imgur.com/zc0SPs3" alt="propose changes" width="200">
 
 -   Click "Create pull request"
 
