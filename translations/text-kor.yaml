@@ -44,7 +44,7 @@ close_dialog:
 language_dialog:
   save_before: 진행하시기 전에 변경 사항을 저장하십시오.
   help_translate: 번역이 완료되지 않은 언어나 메뉴는 영어로 표시됩니다. 영어를 포함하여 여러분의 언어로 번역하는 것을 도와주세요!
-  go_help: 번역을 도우러 가기.
+  go_help: 번역을 도우러 가기.(깃헙 페이지 링크)
 
 publish_dialog:
   title: 스팀 워크샵에 작업물 출시하기

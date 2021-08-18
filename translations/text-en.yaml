@@ -44,7 +44,7 @@ close_dialog:
 language_dialog:
   save_before: Please save your work before you proceed.
   help_translate: Languages or menus that have not been translated will be displayed in English. help me translate to your language, including english!
-  go_help: Go to help with translation.
+  go_help: Go to help with translation. (Link to github page)
 
 publish_dialog:
   title: Publish your work on steam workshop
