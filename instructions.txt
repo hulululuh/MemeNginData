@@ -7,8 +7,8 @@ How to create custom assets.
 {
     "id": 0,
     "name": "Acme",
-    "path": "Acme/Acme-Regular.ttf",
-    "icon": "Acme/icon.png",
+    "path": "Acme-Regular.ttf",
+    "icon": "icon.png",
     "type": "font"
 }
 
