@@ -34,6 +34,7 @@ ui_general:
   success: Success
   fail: Fail
   language: Language
+  done: Done
 
 experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
 
@@ -91,6 +92,9 @@ legal_dialog:
     must_owner: You must be the owner of uploaded submission.
     stolen: · Stolen artwork (even edited) is not allowed.
   agree_legal: "You have to agree Steam workshop legal agreement to proceed. (click here)"
+
+render_dialog:
+  title: Render project
 
 new_document_dialog:
   title: Create new memes
