@@ -35,6 +35,8 @@ ui_general:
   fail: Fail
   language: Language
   done: Done
+  built_in_fonts: Built-in fonts
+  system_fonts: System fonts
 
 experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
 
@@ -99,6 +101,11 @@ render_dialog:
 new_document_dialog:
   title: Create new memes
   message: Please name your project
+
+font_dialog:
+  title: About fonts
+  built_in: Fonts that providing previews are open source fonts such as OFL and Apache 2.0. you may use it commercially. (It is not legal advice)
+  system: Other fonts that on the lists are fonts that installed on your system. You need to make sure, you are eligible for commercial use. If you use this font, it can be displayed as the default font if the font is not installed on other system.
 
 introductions:
   intro: Hello! Thank you for using MemeNgin. MemeNgin is a node-based image engine that can customize every step of modifying an image, making it effective for creating memes or design templates.
