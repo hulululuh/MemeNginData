@@ -1,21 +1,21 @@
 memeNgin:
-  about: MemeNgin 是为 Meme 创作者开发的基于节点的图像引擎。
-  detail: MemeNgin 不仅允许你向图像添加文本，还可以构建逻辑电路（如形状、颜色、文本和合成），从而设计出满足你需求的 Meme 图像。以这种方式设计的模板，只需很少的改动即可创建新 Meme。图像校正迭代过程也可以使用逻辑节点进行编程，并用于制作用途。
+  about: MemeNgin 是面向 Meme 创作者们开发的基于节点的图像引擎。
+  detail: MemeNgin 不仅允许你向图像添加文本，还可以构建逻辑电路（如形状、颜色、文本和合成），从而设计出满足你需求的 Meme 节点图像。以这种方式设计的模板，只需少量改动即可创建新的 Meme 节点图像。图像修改也可以使用逻辑节点进行编程并制作。
   
-  full_version_title: 如果你购买了 MemeNgin，
+  full_version_title: 当你购买 MemeNgin 时
   full_version:
-    - 你可以积极参与基于 Steam 创意工坊的 MemeNgin 社区。
-    - 你可以使用 Steam 创意工坊与他人分享你的作品，并从他人的作品中获取灵感。（正在取得进展）
-    - 你可以帮我完成这个项目。
+    - 你可以积极参与 Steam 社区上的 MemeNgin 社区。
+    - 你可以使用 Steam 创意工坊与他人分享你的作品，并从他人的作品中获取灵感。
+    - 你可以帮 MemeNgin 完成这个项目。
 
   links:
     discord: Discord server
     roadmap: Trello page
     subreddit: Sub-reddit
     source_code: Github
-    translate: 帮我翻译成你的语言，包括英语。你可以在 GitHub 页面上查看详细信息。
+    translate: 我们正在寻找帮助翻译 MemeNgin 的人，包括英语。你可以在 GitHub 页面上查看详细信息。
 
-  text_open_source: MemeNgin 是一个开源项目。我们试图通过尽可能多地考虑社区的意见来确定项目的方向。MemeNgin 的开发路线图可以在 Trello 上找到。
+  text_open_source: MemeNgin 是一个开源项目。我们将根据社区的意见决定项目的开发方向。MemeNgin 的开发路线图可以在 Trello page 上找到。
 
 ui_general:
   okay: 好的
@@ -34,109 +34,133 @@ ui_general:
   success: 成功
   fail: 失败
   language: 语言
+  done: 完成
+  built_in_fonts: 内置字体
+  system_fonts: 系统字体
 
-experimental:  实验性节点， 目前还不完善。请注意，它们在未来可能被改进、修改甚至删除。
+experimental:  实验性节点，目前还不完善。请注意，它们在未来可能被改进、修改甚至删除。
 
 close_dialog:
   title: MemeNgin
-  message: 是否要保存更改？
+  message: 是否需要保存更改？
 
 language_dialog:
-  save_before: 请在继续之前保存你的工程。
-  help_translate: 尚未翻译的语言或菜单将以英语显示。帮我翻译成你的语言，包括英语！
-  go_help: 转到翻译帮助。
+  save_before: 请在继续之前保存你的项目。
+  help_translate: 尚未翻译的语言或菜单将以英语显示。我们正在寻找帮助翻译 MemeNgin 的人，包括英语！
+  go_help: 跳转到 Github 帮助翻译 MemeNgin。
 
 publish_dialog:
-  title: 在 Steam 创意工坊发布你的作品
+  title: 在 Steam 创意工坊上发布
   title_item: 标题
-  description: 描述
+  description: 输入描述
   age_rating: 年龄分级
   tags: 标签
-  derivative: 允许其他人根据本出版物制作衍生作品
+  derivative: 允许其他用户创作衍生作品
   agree_terms: 我同意条款和条件*
   thumbnail: 缩略图
-  find_on_steam: 在 Steam 上找到它
-  required: “* 表示必填字段”
-  success: 项目已成功发布。将其应用于 Steam 可能需要一些时间。
-  fail: 发布项目失败。请稍后再试。如果错误再次出现，请联系开发人员。
+  find_on_steam: 在 Steam 上寻找
+  required: “* 表示必填项”
+  success: 项目已成功发布。它可能需要一些时间才能显示在 Steam 上。
+  fail: 项目发布失败。请稍后再试。如果错误再次出现，请联系开发人员。
 
 age_dialog:
   title: 关于年龄分级
-  message: 许多年轻用户主要使用 Meme，因此我们在发布色情或暴力内容时需要格外小心。使用下面的表格来确定你的 Meme 属于哪个年龄段。如有疑问，建议选择更高的年龄级别。评级低于实际评级的内容可能会被排除在创意工坊之外。
-  everyone: Everyone（0-12）
+  message: 有很多年轻用户正在使用 Meme ，因此我们在处理含有色情或暴力的内容时需要格外小心。使用下面的表格来确定你的 Meme 属于哪个年龄段。如果不确定，建议选择更高的年龄级别。评级低于实际评级的内容可能会被排除在创意工坊之外。
+  everyone: Everyone (0-12)
   everyone_desc: > 
     没有色情与暴力元素
-  questionable: Questionable（13-17）
-  questionable_desc: “你不确定是否适合所有人。”
+  questionable: Questionable (13-17)
+  questionable_desc: “你不确定是否符合 Everyone 级别。”
   mature: Mature (18+)
-  mature_desc: “轻度裸露，轻度暴力”
+  mature_desc: “轻度裸露和暴力元素”
   ban: Ban
-  ban_desc: “照片般逼真的裸露、淫秽行为、暴力血腥”
+  ban_desc: “重度裸露、暴力、血腥、色情元素”
 
 legal_dialog:
   title: 协议条款
   steam_tos:
-    title: Steam 服务条款规则
-    must_not: “您的提交不得违反：”
+    title: Steam 服务条款和规则
+    must_not: “你的作品不得违反：”
     subscriber_agreement: Steam 用户协议
     online_conduct: Steam 在线行为
     rules: Steam 讨论、评论和用户生成内容的规则和指南
     artwork: Steam 创意工坊艺术作品指南
   mmng_tos:
     title: MEMENGIN 服务条款和 UGC 指南
-    must_not: “你的提交不得包含：”
-    harmful: · 有害链接或消息。即使它嵌入在QR码中。
+    must_not: “你的作品不得包含以下内容：”
+    harmful: · 有害链接或消息。（包括带有此类内容的二维码）
     offensive: · 冒犯性内容。（例如种族主义、血腥）
-    pornographic: · 色情内容。（例如色情喷雾/贴花、裸露）
-    must_owner: 你必须是上传的作品的所有者。
-    stolen: · 不允许盗窃的作品（即使是经过编辑的作品）。
-  agree_legal: “你必须同意 Steam 创意工坊的法律协议才能继续。（点击这里）”
+    pornographic: · 色情内容。（例如裸露、色情喷雾或贴花）
+    must_owner: 你必须是上传作品的所有者。
+    stolen: · 禁止未经授权上传其他作者的作品（包括已经过编辑的作品）。
+  agree_legal: “你必须同意 Steam 创意工坊的服务条款才能上传作品。（点击这里）”
+
+render_dialog:
+  title: 项目渲染
 
 new_document_dialog:
-  title: 创建新Meme
-  message: 请为你的项目命名
+  title: 创建新 Meme
+  message: 请输入项目名称
+
+font_dialog:
+  title: 关于字体
+  built_in: 提供预览的字体是开源字体，例如 OFL 和 Apache 2.0。你可以将其应用于商业行为（这不是法律意见）。
+  system: 列表中的其他字体是系统上安装的字体。你需要确保该字体是否有商业授权。其他用户系统上未安装该字体时，它只会显示为默认字体。
 
 introductions:
-  intro: 你好！感谢你使用 MemeNgin。MemeNgin 是一个基于节点的图像引擎，可以自定义修改图像的每个步骤，使其有效地创建 Meme 或设计模板。
-  nodes: 项目由输入节点和输出节点组成，节点和连接表示它们之间的相关性，其中节点是执行固定操作（如图像修改、数值和逻辑）的基本元素。
-  inputs: 输入是收集对你的项目有重要影响的值的地方，你可以包括文本、整数、实数、颜色等。
-  output: 输出节点是项目的最终结果，你可以通过单击屏幕右上角的“另存为图像”将结果另存为图像。
-  workshop: 在 MemeNgin 中，你可以通过 Steam 创意工坊分享你的 Meme。此处共享的项目可以帮助其他人打印具有自定义文本或颜色的 Meme，或者获得有关新 Meme 的想法。
-  startup_menu: 点按左上角的启动菜单，访问教程、你的作品和 Steam 创意工坊搜索功能。* MemeNgin 目前正在开发中，因此请理解在意外情况下可能会出现错误。
+  intro: 你好！感谢您使用 MemeNgin。MemeNgin 是一个基于节点的图像创建和修改引擎，允许您自定义修改图像的每一步，能有效率地创建 Meme 和设计模板。
+  nodes: 你的项目由Input nodes（输入节点）和Output nodes（输出节点）组成，节点和连接表示它们之间的相关性，节点是执行图像更改、值和逻辑等固定操作的基本元素。
+  inputs: Inputs nodes（输入节点）是存储那些给你的项目带来重要影响的值的地方，包括文本、数值、图像、颜色等。
+  output: Output nodes（输出节点）是项目的最终结果，你可以通过单击屏幕右上角的“Save as Image”将结果另存为图片。
+  workshop: MemeNgin 允许你通过 Steam 创意工坊分享你的 Meme。此处共享的项目可以帮助其他用户使用自定义文本或颜色等创建 Meme，并获得新 Meme 的创意。
+  startup_menu: 点击左上角的启动菜单，访问教程、项目和 Steam 创意工坊搜索功能。* MemeNgin 目前正在开发中，因此请理解在特殊情况下可能会出现错误。
   dont_show_again: 启动时不显示此对话框。
 
 tutorials:
-  intro: 很高兴遇见你！感谢你使用 MemeNgin。在本教程中，你将探索 MemeNgin 的基本功能。
-  startup_menu: 通过按屏幕左上角的菜单按钮激活启动菜单。你可以在其中浏览程序中最近的工程和教程，以及 Steam 创意工坊中共享的其他人的作品。
-  app_bar: 从屏幕顶部的菜单中，你可以打开、保存、撤销和重做常用的引擎功能。
-  node_library: 节点库位于屏幕左侧，包含 MemeNgin 的主要功能。
-  node_shorcut: 将鼠标放在编辑区域按下空格键，则可以调出与节点库具有相同功能的快捷菜单。
-  editor: 在编辑器中，你可以在基于节点的工作流程上组织你的工作。它由输入、输出和将要处理的节点组成。
-  inputs: Input（输入）节点是可以包含变量节点和图像节点的捆绑，你可以选择和分组给你的工程带来重大变化的元素。将来分享这些节点时，你只需在预览模式下修改这些数值，就可以定制你的作品，而无需打开编辑器。
-  output: Output（输出）节点是显示项目结果的节点。它比其他节点大，因此可以轻松识别。保存项目（*.mmng）时，此节点的结果图像将另存为缩略图。分享到 steam 创意工坊的时候，必须连接此节点的输入值。
-  preview: 预览菜单位于屏幕右侧的上方，用于预览输出节点的图像。你可以立即看到节点操作期间发生的更改如何反映在最终结果中。你可以将工程保存为图像，缩放以适合图像大小。
-  properties: 属性是屏幕右下角的菜单，你可以在此更改每个节点的属性值。对于大多数属性，可以通过勾选属性值左侧的复选框来决定是否公开该属性。
+  intro: 很荣幸认识您！感谢您使用 MemeNgin。本教程将介绍 MemeNgin 的基本功能。
+  startup_menu: 通过点击屏幕左上角的启动菜单。你可以在此浏览教程和最近打开的项目，以及 Steam 创意工坊中其他用户共享的作品。
+  app_bar: 屏幕顶部的菜单有打开、保存、撤销和重做这些常用功能。
+  node_library: 屏幕左侧是节点库，包含 MemeNgin 的主要功能。
+  node_shorcut: 将鼠标移到编辑区域按下空格键，可以使用节点库的快捷菜单。
+  editor: 编辑器允许你在基于节点的工作流程上创作项目。工作流程由输入、输出和工作节点组成。
+  inputs: Input nodes（输入节点）是允许放置变量节点和图像节点的集合，允许你选择和分组那些给你的项目带来重大影响的元素。当你将这些节点存储在输入节点中时，输出节点将显示存储在输入节点的节点属性，其目的是为了让你只需简单修改属性值即可自定义你的项目。
+  output: Output nodes（输出节点）是显示项目结果的节点。它比其他节点大，因此可以轻松区分。保存项目（*.mmng）时，该节点的结果图像保存为缩略图。当你将作品分享到 Steam 创意工坊时，你需要连接该节点的输入端。
+  preview: 预览菜单位于屏幕右上，用于预览输出节点的图像。你可以立即看到节点操作期间所做的更改将如何反映在最终结果中。使用鼠标右键和滚轮进行移动和缩放。
+  properties: 属性菜单位于屏幕右下角，可以在此修改每个节点的属性值。对于大多数属性，可以通过勾选属性值左侧的复选框来决定是否显示该属性的输入端。
   library:
-    shape: 形状节点是一组对图像的形状进行变换的节点。它接收一个输入图像，并将其输出为一个变换后的图像。这包括图像变换（和裁剪），画布大小调整等。
-    color: 颜色节点是根据规则更改图像颜色的一组节点。有常见的颜色更改选项，如亮度对比度，色相偏移和LUT。
-    composite: 混合节点将一个前台节点和一个后台节点作为输入值并执行复合。混合节点允许你从各种图像合成规则中进行选择。选择大多数混合节点时，会激活相应的变换小部件。可以使用小部件放置前景图像。
-    create: 创建节点可以创建各种节点，例如图像，文本，方格图案等。此处的节点可用作前面提到的形状和颜色节点的输入值。将来还将添加可用于生产目的的节点，例如QR码节点。
-    logic: 逻辑节点是一组作为其他节点的输入值的节点，如变量节点，或解决逻辑问题的节点，如检测和风格化，以及帮助逻辑设计任务的节点，如输入、输出和复制。以及可以对工作进行逻辑编程的节点，如算术运算、控制运算等，将在未来增加。请注意，这里的一些节点作为实验阶段是不完善的。
+    shape: Shape node（形状节点）是一组转换图像形状的节点。将一张图像作为输入值并将其作为转换后的图像输出。这包括图像变换、裁剪、调整尺寸等。
+    color: Color node（颜色节点）是一组根据规则改变图像颜色的节点。有常见的颜色更改选项，如亮度、对比度、色相偏移和LUT等。
+    composite: Composition node（合成节点）是将一个前景图像和一个背景图像作为输入值并进行合成。你可以使用混合节点来进行合成，如蒙版和叠加等。在大多数合成节点上，变换组件已激活，你可以使用该组件执行移动、旋转和缩放前景图像操作。
+    create: Create node（创作节点）可以创建各种节点，例如图像、渐变、文本、棋盘图案等。这些节点可作为形状和颜色节点的输入值。
+    logic: Logical node（逻辑节点）是一组作为其他节点的输入值的节点，如变量节点；解决逻辑问题的节点，如布尔、分支等；协助逻辑设计任务的节点，如插值、曲线、中继器等；逻辑编程的节点，如数学和控制操作等。请注意，这里的一些节点还在实验阶段并不完善。
   property:
-    node: 属性节点是包含字符串、整数、小数、向量和颜色等值的节点，并允许你通过将其连接到另一个节点的公开属性值来修改该节点的值。
-    expose: 大多数属性可以通过单击属性值左侧的复选框来公开，公开的属性在节点左侧显示为接口，并且可以连接属性节点的结果值。
-    propagate: 属性节点可以连续连接成链，值从左节点传递到右节点
+    node: 属性节点是一个包含字符串、整数、小数、向量和颜色等值的节点，并允许你通过将其连接到另一个节点的输入端接口来修改该节点的属性值。
+    expose: 对于大多数属性，可以通过勾选属性值左侧的复选框来决定是否显示该属性的输入端接口。
+    propagate: 属性节点可以连续连接，数值从左边的输入端传递到右边的输出端。
   image:
-    rule_one: 创建图像时，除非有特殊情况，否则将保持原始图像或输入节点的图像大小。创建新的图像节点（Create）时，图像尺寸固定为1024x1024。
-    rule_two: 更改图像大小的选项有 Resize（调整大小）和 Transform2D（2D变换）节点。此节点更改的图像大小对于后续节点将保持不变。
-    rule_three: 在以两个或多个图像作为输入值的复合节点的情况下，背景图像的大小被改变为新节点的大小。
+    rule_one: 创建图像时，除非另有说明，否则将保留原始图像或输入节点的图像尺寸。在节点上创建新的图案时，图像的默认尺寸为1024 x 1024。
+    rule_two: 如果要更改图像尺寸，可以使用Resize（调整尺寸）和 Transform2D（2D变换）节点。该节点改变的图像尺寸在后续节点上保持不变。
+    rule_three: 以两个或多个图像作为输入值的混合节点，则以背景图像的尺寸作为新节点的默认尺寸。
   navigation:
-    zoom: 使用鼠标滚轮，你可以放大/缩小工作区。
-    zoom_selected: 选择节点后，按“F”按钮或屏幕顶部的缩放选定按钮以放大所选项目。在库中选择输入或输出节点也会在输入和输出节点上触发类似的缩放效果，而不是创建它。
-    panning: 你可以通过拖动鼠标右键或滚轮按钮在编辑器区域中移动。
-    preview: 你还可以以与编辑器相同的方式浏览预览视图。
+    zoom: 使用鼠标滚轮可以放大/缩小工作区。
+    zoom_selected: 选择节点后，按“F”键或屏幕顶部的“Zoom selection”按钮来放大所选项目。在库中选择输入或输出节点也会在输入和输出节点上触发类似的缩放效果，而不是创建节点。
+    panning: 你可以通过按住鼠标右键或滚轮在编辑器区域移动。
+    preview: 在预览界面也可以通过相同的操作方式进行浏览。
   logics:
-    string: Strings（字符串）可以输入到文本节点，也可以用作输入值，如QR码。
-    float: Float（浮点）是一个十进制数字，显示为从0到1的数字，用于各种属性值。您可以使用 MapFloat 节点调整值的范围。
-    integer: Integer（整数）是一个从0到100的数字，主要用于将计数作为输入的节点。
-    corelation: 根据节点的设计，一个属性值可以是图像的旋转角度或亮度，并且可以同时影响多个节点。
+    string: Strings（字符串）可以输入到文本节点，也可以用作输入值，如二维码。
+    float: Float（浮点）是一个从0到1的十进制数，包括小数点后第三位，用于各种属性值。你可以使用 MapFloat 节点调整数值的范围。
+    integer: Integer（整数）是一个从0到100的整数，主要用于以数值为输入的节点。
+    corelation: 根据节点的特性，一个属性值能同时影响多个节点。
+  animation:
+    intro: 在 MemeNgin 中，有两种方法来创建动画。第一种方法是根据时间变化改变输入节点的属性来创建动画效果。第二种方法是使用 Time Node 对现有的 Gif 动画进行重构。
+    time_node: 如果你的项目有 Time Node，MemeNgin 会将其视为动画项目。如果你不希望项目以动画形式显示，只需删除 Time Node。每个项目最多可以有一个 Time Node，总帧数由每秒帧数和动画长度确定。
+    time_node_progress: Time Node 的 Progress 属性表示动画从0到1的进度。如果将该值连接到另一个属性节点的输入端，可以创建随时间变化的动画效果。
+    animation_node: 通过单击节点库中的 animation node，或从浏览器或资源管理器中拖动 Gif 文件来创建动画节点。此节点具有 Progress 值作为属性。因此，动画项目需要将 Time Node 的 Progress 属性连接到此属性才能进行动画制作。
+    adjust: 目前，可以在 MemeNgin 中控制动画的节点有 Curve node 和 Repeater node。
+    curve_node: Curve node（曲线节点）是可以根据时间变化加速或减速动画的节点。它接收介于0和1之间的值作为输入，并根据指定的曲线返回一个值。
+    repeater_node: 当你需要制作循环动画时，将使用 Repeater node（中继器节点）。此节点将 Input 值乘以 Repeat 值，使值在0到1之间循环。
+    render_frames: 单击屏幕右上角的“Render frames”按钮以打开项目渲染对话框。
+    play: 渲染对话框顶部左侧的第一个按钮是“play animation”播放按钮。这将根据 Time Node 中设置的动画速度播放动画（播放速度可能比实际动画结果慢，具体取决于电脑的性能）。
+    render_save: 第二个按钮是“Render Animation”渲染按钮，用于逐帧渲染动画并将其编码为 GIF。编码完成后，可以保存GIF并激活右侧的“Save as Gif”按钮。这里呈现的结果是根据 Resize node（调整尺寸节点）设置的分辨率。
+    guidelines: MemeNgin 不想对 GIF 的分辨率或动画长度添加限制，但建议使用512 x 512分辨率，总帧数限制为24帧。请注意，设置数值过高的情况下，可能会出现性能问题，甚至有可能失去你的项目。
+    thumbnails: 与静态图像项目一样，动画项目的缩略图是256 x 256分辨率的 Gif 动画。缩略图根据合适高度调整尺寸和裁剪。可以通过将重要内容居中来创建缩略图，以免被裁剪。
