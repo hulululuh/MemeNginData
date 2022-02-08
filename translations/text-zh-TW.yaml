@@ -1,142 +1,166 @@
 memeNgin:
-  about: MemeNgin is a node-based image engine developed for meme creators.
-  detail: In MemeNgin, you can design an image meme machine that fits your needs by building logic circuits such as shape, color, text, and compositing, not just adding text to images. The machine designed in this way becomes a template that allows you to create new meme with minimal efforts. The iterative process of image modification can also be programmed with logic nodes and used for productive purposes.
+  about: about: MemeNgin 是面向 Meme 創作者們開發的基於節點的圖像引擎。
+  detail: MemeNgin 不僅允許你向圖像添加文本，還可以構建邏輯電路（如形狀、顏色、文本和合成），從而設計出滿足你需求的 Meme 節點圖像。以這種方式設計的模板，只需少量改動即可創建新的 Meme 節點圖像。圖像修改也可以使用邏輯節點進行程式設計並製作。
   
-  full_version_title: If you purchase MemeNgin,
+  full_version_title: 當你購買 MemeNgin 時
   full_version:
-    - You can actively participate in the memengin community based on steamworks.
-    - You can use the Steam Workshop to share your work with others and get inspirations from others' work. (working on progress)
-    - You can help me to completing the this project.
+    - 你可以積極參與 Steam 社區上的 MemeNgin 社區。
+    - 你可以使用 Steam 創意工坊與他人分享你的作品，並從他人的作品中獲取靈感。
+    - 你可以幫 MemeNgin 完成這個項目。
 
   links:
     discord: Discord server
     roadmap: Trello page
     subreddit: Sub-reddit
     source_code: Github
-    translate: I need help translating into your language, including English. You can check the details on the GitHub page.
+    translate: 我們正在尋找幫助翻譯 MemeNgin 的人，包括英語。你可以在 GitHub 頁面上查看詳細資訊。
 
-  text_open_source: MemeNgin is an open source project. We try to determine the direction of the project by considering the opinions of the community as much as possible. MemeNgin's roadmap can be found on the Trello page.
+  text_open_source: MemeNgin 是一個開源項目。我們將根據社區的意見決定項目的開發方向。MemeNgin 的開發路線圖可以在 Trello page 上找到。
 
 ui_general:
-  okay: Okay
-  agree: Agree
-  disagree: Disagree
-  cancel: Cancel
-  close: Close
-  save: Save
-  do_not_save: Don't Save
-  update: Update
-  publish: Publish
-  steam_must_run: The steam client must be running!!!
-  create: Create
-  subscribe: Subscribe
-  unsubscribe: Subscribed
-  success: Success
-  fail: Fail
-  language: Language
+  okay: 好的
+  agree: 同意
+  disagree: 不同意
+  cancel: 取消
+  close: 關閉
+  save: 保存
+  do_not_save: 不保存
+  update: 更新
+  publish: 發佈
+  steam_must_run: Steam 用戶端必須正在運行!!!
+  create: 創建
+  subscribe: 訂閱
+  unsubscribe: 已訂閱
+  success: 成功
+  fail: 失敗
+  language: 語言
+  done: 完成
+  built_in_fonts: 內置字體
+  system_fonts: 系統字體
 
-experimental:  Experimental nodes are currently incomplete, but show nodes that can be adopted in the future. Please note that they may be improved, modified or even deleted in the future.
+experimental:  實驗性節點，目前還不完善。請注意，它們在未來可能被改進、修改甚至刪除。
 
 close_dialog:
   title: MemeNgin
-  message: Do you want to save changes?
+  message: 是否需要保存更改？
 
 language_dialog:
-  save_before: Please save your work before you proceed.
-  help_translate: Languages or menus that have not been translated will be displayed in English. help me translate to your language, including english!
-  go_help: Go to help with translation.
+  save_before: 請在繼續之前保存你的項目。
+  help_translate: 尚未翻譯的文字將以英語顯示。我們正在尋找幫助翻譯 MemeNgin 的人，包括英語！
+  go_help: 跳轉到 Github 幫助翻譯 MemeNgin。
 
 publish_dialog:
-  title: Publish your work on steam workshop
-  title_item: Title
-  description: Description
-  age_rating: Age rating
-  tags: Tags
-  derivative: Allow others to make derivative work from this publication
-  agree_terms: I agree terms and conditions*
-  thumbnail: Thumbnail
-  find_on_steam: Find it on steam
-  required: '* indicates required field'
-  success: Project has successfully published. It may take some time for it to be applied to Steam.
-  fail: Failed to release the project. Please try again later. If the error recurs, please contact the developer.
+  title: 在 Steam 創意工坊上發佈
+  title_item: 標題
+  description: 輸入描述
+  age_rating: 年齡分級
+  tags: 標籤
+  derivative: 允許其他使用者創作衍生作品
+  agree_terms: 我同意條款和條件*
+  thumbnail: 縮略圖
+  find_on_steam: 在 Steam 上尋找
+  required: “* 表示必填項”
+  success: 項目已成功發佈。它可能需要一些時間才能顯示在 Steam 上。
+  fail: 項目發佈失敗。請稍後再試。如果錯誤再次出現，請聯繫開發人員
 
 age_dialog:
-  title: About age rating
-  message: Many younger users primarily use memes, so we need to be extra careful when releasing sexual or violent content. Use the table below to determine which age class your meme belongs to. When in doubt, it is recommended to select a higher age level. Content rated lower than the actual rating may be excluded from workshop.
+  title: 關於年齡分級
+  message: 有很多年輕用戶正在使用 Meme ，因此我們在處理含有色情或暴力的內容時需要格外小心。使用下面的表格來確定你的 Meme 屬於哪個年齡段。如果不確定，建議選擇更高的年齡級別。評級低於實際評級的內容可能會被排除在創意工坊之外。
   everyone: Everyone (0-12)
   everyone_desc: > 
-    No sexual expresion, No violence
+    沒有色情與暴力元素
   questionable: Questionable (13-17)
-  questionable_desc: "It could be an Everyone grade, but if you have some doubts."
+  questionable_desc: “你不確定是否符合 Everyone 級別。”
   mature: Mature (18-)
-  mature_desc: "Mild-nudity, Mild-violence"
+  mature_desc: “輕度裸露和暴力元素”
   ban: Ban
-  ban_desc: "Photo-Realistic nudity, Sexual acts, Gore"
+  ban_desc: “重度裸露、暴力、血腥、色情元素”
 
 legal_dialog:
-  title: Terms of agreement
+  title: 協議條款
   steam_tos:
-    title: Steam terms of service rules
-    must_not: "Your submission must not violate:"
-    subscriber_agreement: Steam Subscriber Agreement
-    online_conduct: Steam Online Conduct
-    rules: Rules and Guidelines For Steam Discussions, Reviews, and User Generated Content
-    artwork: Steam Workshop Artwork guidelines
+    title: Steam 服務條款和規則
+    must_not: “你的作品不得違反：”
+    subscriber_agreement: Steam 使用者協定
+    online_conduct: Steam 線上行為
+    rules: Steam 討論、評論和使用者生成內容的規則和指南
+    artwork: Steam 創意工坊藝術作品指南
   mmng_tos:
-    title: MEMENGIN Terms of Service and UGC guidelines
-    must_not: "Your submission must not contain:"
-    harmful: · harmful links or message. Even if it is embedded in the QR code.
-    offensive: · offensive content. (e.g. racism, gore)
-    pornographic: · pornographic content. (e.g. pornographic sprays/decals, nudity)
-    must_owner: You must be the owner of uploaded submission.
-    stolen: · Stolen artwork (even edited) is not allowed.
-  agree_legal: "You have to agree Steam workshop legal agreement to proceed. (click here)"
+    title: MEMENGIN 服務條款和 UGC 指南
+    must_not: “你的作品不得包含以下內容：”
+    harmful: · 有害連結或消息。（包括帶有此類內容的二維碼）
+    offensive: · 冒犯性內容。（例如種族主義、血腥）
+    pornographic: · 色情內容。（例如裸露、色情噴霧或貼花）
+    must_owner: 你必須是上傳作品的所有者。
+    stolen: · 禁止未經授權上傳其他作者的作品（包括已經過編輯的作品）。
+  agree_legal: “你必須同意 Steam 創意工坊的服務條款才能上傳作品。（點擊這裡）”
+
+render_dialog:
+  title: 項目渲染
 
 new_document_dialog:
-  title: Create new memes
-  message: Please name your project
+  title: 創建新 Meme
+  message: 請輸入項目名稱
+
+font_dialog:
+  title: 關於字體
+  built_in: 提供預覽的字體是開源字體，例如 OFL 和 Apache 2.0。你可以將其應用于商業行為（這不是法律意見）。
+  system: 選項中的其他字體是系統上安裝的字體。你需要確保該字體是否有商業授權。其他使用者系統上未安裝該字體時，它只會顯示為預設字體。
 
 introductions:
-  intro: Hello! Thank you for using MemeNgin. MemeNgin is a node-based image engine that can customize every step of modifying an image, making it effective for creating memes or design templates.
-  nodes: Your project consists of Input nodes and an Output node, with nodes and connections representing the correlations between them, Where nodes are basic elements that perform fixed operations such as image modification, values, and logic.
-  inputs: Inputs is a place to collect values ​​that have an important impact on your project, and you can include text, integers, real numbers, colors, and more.
-  output: The Output node is the final result of the project, and you can save the result as an image by clicking Save as Image in the upper right corner of the screen.
-  workshop: In MemeNgin, you can share your meme through Steam workshop. Projects shared here can help others print memes with custom text or colors, or get ideas for new memes.
-  startup_menu: Click the Start menu in the upper left corner to access Tutorials, Your Work, and the Steam Workshop search function. *MemeNgin is currently under development, so please understand that bugs may occur in unexpected situations.
-  dont_show_again: Don't show this dialog on startup.
+  intro: 你好！感謝您使用 MemeNgin。MemeNgin 是一個基於節點的圖像創建和修改引擎，允許您自訂修改圖像的每一步，能有效率地創建 Meme 和模板。
+  nodes: 你的項目由 Input nodes 和 Output nodes 組成，節點和連接表示它們之間的相關性，節點是執行圖像更改、值和邏輯等固定操作的基本元素。
+  inputs: Inputs nodes 是存儲那些給你的項目帶來重要影響的值的地方，包括文本、數值、圖像、顏色等。
+  output:  Output nodes 是項目的最終結果，你可以通過螢幕右上角的“Save as Image”將結果另存為圖片。
+  workshop: MemeNgin 允許你通過 Steam 創意工坊分享你的 Meme 項目。此處分享的項目可以幫助其他用戶創建 Meme 項目，並獲得新 Meme 的創意。
+  startup_menu: 點擊左上角的啟動功能表，訪問教程、項目和 Steam 創意工坊搜索功能。* MemeNgin 目前正在開發中，因此請理解在特殊情況下可能會出現錯誤。
+  dont_show_again: 啟動時不顯示此視窗。
 
 tutorials:
-  intro: Nice to meet you all! Thank you for using MemeNgin. In this tutorial, you will explore the basic features of MemeNgin.
-  startup_menu: Startup menu is activated by pressing the menu button at the top left of the screen. Here you will find a menu where you can navigate through recent work and tutorials in the program and other people's work shared in the Steam Workshop.
-  app_bar: From this menu at the top of the screen, you can open, save, and Undo & Redo common engine features.
-  node_library: The node library menu is on the left side of the screen contains the main functions of MemeNgin.
-  node_shorcut: If you press the space bar button while focused on the editor, you can bring up a shortcut menu with the same function as the node library.
-  editor: In the editor, you can organize your work on a node-based workflow. It consists of inputs, outputs, and the nodes you will be working on.
-  inputs: Input nodes are bundles that can contain variable nodes and image nodes, and you can select and group elements that bring significant changes to your work. When sharing these nodes in the future, it is designed so that you can customize your work by simply modifying these values in preview mode without opening the editor.
-  output: The output node is a node that displays the results of the project. It is larger than other nodes, so it can be easily recognized. When saving a project (*.mmng), the result image of this node is saved as a thumbnail. When you share your work to steam workshop in the future, the input value of this node must be connected.
-  preview: The preview menu is at upper side of the right side of the screen to preview the image of the output node. You can immediately see how changes that occur during node operations are reflected in the final result. You can save your work as image, zoom to fit image size.
-  properties: Property is a menu at the bottom right of the screen, and it is a menu where you can change the property value of each node. For most properties, you can decide whether to expose or not by turning the check box to the left of the property value On/Off.
+  intro: 很高興認識您！感謝您使用 MemeNgin。本教程將介紹 MemeNgin 的基本功能。
+  startup_menu: 通過點擊左上角的開始菜單。你可以在此流覽教程和最近打開的項目，以及 Steam 創意工坊中其他使用者分享的作品。
+  app_bar: 熒幕頂部的功能欄有打開、保存、撤銷和重做這些常用功能。
+  node_library: 熒幕左側是 MemeNgin 的節點庫。
+  node_shorcut: 將滑鼠移到編輯區域按下空白鍵，可以使用節點庫的快顯功能表。
+  editor: 編輯器允許你在基於節點的工作流程上創作項目。工作流程由輸入、輸出和工作節點組成。
+  inputs: Input nodes是允許放置變數節點和圖像節點的集合，允許你選擇和分組那些給你的項目帶來重大影響的元素。當你將這些節點存儲在輸入節點中時，輸出節點將顯示存儲在輸入節點的節點屬性，其目的是為了讓你只需簡單修改屬性值即可自訂你的項目。
+  output: Output nodes是顯示項目結果的節點。它比其他節點大，因此可以輕鬆區分。保存項目（*.mmng）時，該節點的結果圖像保存為縮略圖。當你將作品分享到 Steam 創意工坊時，你需要連接該節點的輸入端。
+  preview: 預覽視窗位於螢幕右上，用於預覽輸出節點的圖像。你可以立即看到節點操作期間所做的更改將如何反映在最終結果中。使用滑鼠右鍵和滾輪進行移動和縮放。
+  properties: 屬性功能表位於螢幕右下角，可以在此修改每個節點的屬性值。對於大多數屬性，可以通過勾選屬性值左側的核取方塊來決定是否打開該屬性的輸入端。
   library:
-    shape: The shape node is a set of nodes that are transforming the shape of the image. It receives one input image and outputs it as a transformed image. This includes image transform (and crop), canvas resize, etc.
-    color: The color node is a set of nodes that are changing the color of the image according to rules. There are common color change options such as Brightness Contrast, Hue Shift, and LUT.
-    composite: The composition node takes one foreground node and a background node as input values and performs composition. The blend node allows you to choose from a variety of image compositing rules. When selecting most composite nodes, the corresponding transform widget is activated. Foreground images can be placed using the widget.
-    create: Create node can create various nodes such as image, text, checkered pattern, etc. The nodes here can be used as input values for the shape and color nodes mentioned earlier. Nodes that can be used for productive purposes, such as the QR Code node, will also be added in the future.
-    logic: A logical node is a set of nodes that are used as input values of other nodes like variable nodes, or nodes that solve logical problems such as detection and stylization, and nodes that help logically design tasks such as input, output, and copy. and nodes that can logically program the work, such as Arithmetic operation, Control operation, etc., will be added in the future. Please note that some nodes here are incomplete as an experimental stage.
+    shape: Shape node 是一組轉換圖像形狀的節點。將一張圖像作為輸入值並將其作為轉換後的圖像輸出。這包括圖像變換、裁剪、調整尺寸等。
+    color: Color node 是一組根據規則改變圖像顏色的節點。有常見的顏色更改選項，如亮度、對比度、色相偏移和LUT等。
+    composite: Composition node 是將一個前景圖像和一個背景圖像作為輸入值並進行合成。你可以使用混合節點來進行合成，如蒙版和迭加等。在大多數合成節點上，變換元件已啟動，你可以使用該元件執行移動、旋轉和縮放前景圖像操作。
+    create: Create node 可以創建各種節點，例如圖像、漸變、文本、棋盤圖案等。這些節點可作為形狀和顏色節點的輸入值。
+    logic:  Logical node 是一組作為其他節點的輸入值的節點，如變數節點；解決邏輯問題的節點，如檢測和風格化；協助邏輯設計任務的節點，如輸入、輸出和複製；邏輯程式設計的節點，如算術和控制操作等。請注意，這裡的一些節點還在實驗階段並不完善。
   property:
-    node: A property node is a node that contains values such as strings, integers, decimals, vectors, and colors, and allows you to modify this value outside the node by connecting it to the exposed property value of another node.
-    expose: Most properties can be exposed by clicking the check box to the left of the property value, and the exposed properties appear as a socket on the left side of the node, and the result value of the property node can be connected.
-    propagate: Property nodes can be connected continuously in a chain, and values are transferred from the left node to the right node.
+    node: 屬性節點是一個包含字串、整數、小數、向量和顏色等值的節點，並允許你通過將其連接到另一個節點的輸入端介面來修改該節點的屬性值。
+    expose: 對於大多數屬性，可以通過勾選屬性值左側的核取方塊來決定是否顯示該屬性的輸入端接口。
+    propagate: 屬性節點可以連續連接，數值從左邊的輸入端傳遞到右邊的輸出端。
   image:
-    rule_one: When creating an image, it will remain the original image or the image size of the input node unless there are special conditions. When creating a new image node (Create), the image size is fixed at 1024 x 1024.
-    rule_two: There are options to change the image size are Resize and Transform2D nodes. The size of the image changed by this node will remain the same for subsequent nodes.
-    rule_three: In the case of a composite node that takes two or more images as input values, the size of the background image is changed to the size of the new node.
+    rule_one: 創建圖像時，除非另有說明，否則將保留原始圖像或輸入節點的圖像尺寸。在節點上創建新的圖案時，圖像的預設尺寸為1024 x 1024。
+    rule_two: 如果要更改圖像尺寸，可以使用 Resize 和 Transform2D 節點。該節點改變的圖像尺寸在後續節點上保持不變。
+    rule_three: 以兩個或多個圖像作為輸入值的混合節點，則以背景圖像的尺寸作為新節點的默認尺寸。
   navigation:
-    zoom: Using the mouse wheel, you can zoom in/out the work area.
-    zoom_selected: When the nodes are selected, press the 'F' button or the zoom selected button at the top of the screen to enlarge the selected item. Selecting an Input or Output node in the library also triggers similar zoom effect on input & output node instead of creating it.
-    panning: You can move around the editor area by dragging the right mouse button or the wheel button.
-    preview: You can also browse the preview view in the same way as the editor.
+    zoom: 使用滑鼠滾輪可以放大/縮小工作區。
+    zoom_selected: 選擇節點後，按“F”鍵或螢幕頂部的“Zoom selection”按鈕來放大所選項目。在庫中選擇輸入或輸出節點也會在輸入和輸出節點上觸發類似的縮放效果，而不是創建節點。
+    panning: 你可以通過按住滑鼠右鍵或滾輪在編輯器區域移動。
+    preview: 在預覽介面也可以通過相同的操作方式進行預覽。
   logics:
-    string: Strings can be input to text nodes, and can also be used as input values such as QR codes.
-    float: Float is a decimal numbers appear as numbers ranging from 0 to 1, and are used for various property values. You can adjust the range of values using the MapFloat node.
-    integer: Integer is a number from 0 to 100, and is mainly used for nodes that take counts as input.
-    corelation: One property value, depending on the design of the node, can be the rotation angle or the brightness of the image, and can affect multiple nodes at the same time.
+    string: Strings 可以輸入到文本節點，也可以用作輸入值，如二維碼。
+    float: Float 是一個從0到1的十進位數字，包括小數點後第三位元，用於各種屬性值。你可以使用 MapFloat 節點調整數值的範圍。
+    integer: Integer 是一個從0到100的整數，主要用於以數值為輸入的節點。
+    corelation: 根據節點的特性，一個屬性值能同時影響多個節點。
+  animation:
+    intro: 在 MemeNgin 中，有兩種方法來創建動畫。第一種方法是根據時間變化改變輸入節點的屬性來創建動畫效果。第二種方法是使用 TimeNode 對現有的 Gif 動畫進行重構。
+    time_node: 如果你的項目有 TimeNode，MemeNgin 會將其視為動畫項目。如果你不希望項目以動畫形式顯示，只需刪除 TimeNode。每個項目最多可以有一個 TimeNode，總幀數由每秒幀數和動畫長度確定。
+    time_node_progress: TimeNode 的 Progress 屬性工作表示動畫從0到1的進度。如果將該值連接到另一個屬性節點的輸入端，可以創建隨時間變化的動畫效果。
+    animation_node: 通過按一下節點庫中的 animation node，或從流覽器或資源管理器中拖動 Gif 文件來創建動畫節點。此節點具有 Progress 值作為屬性。因此，動畫項目需要將 TimeNode 的 Progress 屬性連接到此屬性才能進行動畫製作。
+    adjust: 目前，可以在 MemeNgin 中控制動畫的節點有 Curve node 和 Repeater node。
+    curve_node: Curve node 是可以根據時間變化加速或減速動畫的節點。它接收介於0和1之間的值作為輸入，並根據指定的曲線返回一個值。
+    repeater_node: 當你需要製作迴圈動畫時，將使用 Repeater node。此節點將 Input 值乘以 Repeat 值，使值在0到1之間迴圈。
+    render_frames: 按一下螢幕右上角的“Render frames”按鈕以打開項目渲染視窗。
+    play: 渲染視窗頂部左側的第一個按鈕是播放按鈕。這將根據 TimeNode 中設置的動畫速度播放動畫（播放速度可能比實際動畫結果慢，具體取決於電腦的性能）。
+    render_save: 第二個按鈕是渲染按鈕，用於逐幀渲染動畫並將其編碼為 GIF。編碼完成後，可以保存GIF並啟動右側的“Save as Gif”按鈕。這裡呈現的結果是根據 Resize node 設定的解析度。
+    guidelines: MemeNgin 不想對 GIF 的解析度或動畫長度添加限制，但建議使用512 x 512解析度，總幀數設定為24幀。請注意，設定數值過高的情況下，可能會出現性能問題，甚至有可能失去你的項目。
+    thumbnails: 與靜態圖像項目一樣，動畫項目的縮略圖是256 x 256解析度的 Gif 動畫。縮略圖根據合適高度調整尺寸和裁剪。可以通過將重要內容居中來創建縮略圖，以免被裁剪。
