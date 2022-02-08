@@ -1,5 +1,5 @@
 memeNgin:
-  about: about: MemeNgin 是面向 Meme 創作者們開發的基於節點的圖像引擎。
+  about: MemeNgin 是面向 Meme 創作者們開發的基於節點的圖像引擎。
   detail: MemeNgin 不僅允許你向圖像添加文本，還可以構建邏輯電路（如形狀、顏色、文本和合成），從而設計出滿足你需求的 Meme 節點圖像。以這種方式設計的模板，只需少量改動即可創建新的 Meme 節點圖像。圖像修改也可以使用邏輯節點進行程式設計並製作。
   
   full_version_title: 當你購買 MemeNgin 時
